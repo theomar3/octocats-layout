@@ -49,36 +49,32 @@ table {
 
 /*end of reset*/
 
-
+.octodex {
+	margin: 20px;
+}
 
 .octocat {
-  float: left;
-  width: 33.3%;
+	float: left;
+	width: 33%;
 }
 
 .octocat > a > img {
-  max-width: 90%;
-  border: 1px solid gray;
-  margin: 30px 30px 0 30px;
+	display: block;
+	width: 97%;
+	border: 1px solid gray;
+
 }
-
-
-
 
 .image-footer {
 	overflow: auto;
-
-  margin-top: 15px;
-	padding-bottom: 7px;
-  border-bottom: 1px solid #CCC;
-
+	margin-top: 15px;
+	border-bottom: solid 1px gray;
+	padding-bottom: 10px;
 }
 
 .image-number {
 	float: left;
-  width: 10%;
-	padding-top: 10px;
-	margin-left: 30px;
+	margin-top: 7px;
 }
 
 .image-number:before {
@@ -87,24 +83,22 @@ table {
 
 .image-caption {
 	float: right;
-	margin-right: 10px;
-
 }
 
-
-.authors, .authors li {
-  display: inline;
-
-}
-
-.authors li img {
-  width: 30px;
-	margin: 0;
-  border-radius: 5px;
-  border: solid 1px white;
+.authors img {
+	width: 30px;
+	border-radius: 5px;
+	border: 1px solid white;
 	vertical-align: middle;
 }
 
+.authors, .authors li {
+	display: inline;
+}
+
+.authors {
+	margin-right: 15px;
+}
 
 span {
   color: gray;
